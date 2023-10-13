@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+<div id ='mydiv'>
+    <h1>Welcome. Explore your ideas🤞</h1>
+    <h2><em>"The best way to overcome writer's block is to start writing." - Jodi Picoult</em></h2>
+    <textarea id="textBox" col="30" rows="30" placeholder="Start Typing..." oninput="startTyping()"></textarea>
+</div>
+<script src="{{url_for('static',filename='js/js_script.js')}}"></script>
+</body>
+</html>

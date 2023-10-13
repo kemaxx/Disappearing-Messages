@@ -1,0 +1,16 @@
+body{
+background-color:black;
+}
+
+h1,h2{
+color:white;
+}
+#mydiv{
+text-align:center;
+}
+
+textarea{
+width:60%;
+font-size:30px;
+height:100vh;
+}
